@@ -1,4 +1,7 @@
-# geekiam-articles
+# Geek.I.Am Site Template
+
+A nuxt site template to enable the quick generation of micro sites for Geek.I.Am
+
 
 ## Build Setup
 
