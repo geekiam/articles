@@ -9,9 +9,7 @@
           <div class="h-full pl-4 pr-6 py-6 sm:pl-6 lg:pl-8 xl:pl-0">
             <!-- Start left column area -->
             <div class="h-full relative" style="min-height: 12rem">
-              <div
-                class="absolute inset-0 border-2 border-gray-200 border-dashed rounded-lg"
-              ></div>
+              <div class="absolute inset-0"></div>
             </div>
             <!-- End left column area -->
           </div>
@@ -21,9 +19,7 @@
           <div class="h-full py-2 px-2 sm:px-2 lg:px-6">
             <!-- Start main area-->
             <div class="relative h-full" style="min-height: 36rem">
-              <div
-                class="absolute inset-0 border-2 border-gray-200 border-dashed rounded-lg"
-              >
+              <div class="absolute inset-0">
                 <card></card>
               </div>
             </div>
@@ -38,9 +34,7 @@
         <div class="h-full pl-6 py-6 lg:w-80">
           <!-- Start right column area -->
           <div class="h-full relative" style="min-height: 16rem">
-            <div
-              class="absolute inset-0 border-2 border-gray-200 border-dashed rounded-lg"
-            ></div>
+            <div class="absolute inset-0"></div>
           </div>
           <!-- End right column area -->
         </div>
