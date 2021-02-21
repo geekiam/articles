@@ -1,0 +1,72 @@
+backend:
+  name: github
+  repo: Geek-I-Am/articles
+publish_mode: editorial_workflow
+site_url: https://geekiam.io
+logo_url: https://geekiam.io/uploads/geekiam-logo.png
+display_url: https://geekiam.io
+show_preview_links: true
+media_library:
+  name: cloudinary
+  output_filename_only: true
+  config:
+    cloud_name: geekiam-io
+    api_key: 775599314677177
+collections:
+  - name: 'articles'
+    label: 'Articles'
+    folder: 'content/articles'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - label: 'Meta'
+        name: 'meta'
+        widget: 'object'
+        fields:
+          [
+            { label: 'Title', name: 'title', widget: 'string', required: true },
+            { label: 'Description', name: 'description', widget: 'string', required: true },
+            { label: 'Keywords', name: 'keywords',  widget: list,
+              field: { label: 'keyword', name: 'keyword', widget: 'string' }
+            }
+          ]
+      - label: 'Twitter'
+        name: 'twitter'
+        widget: 'object'
+        fields:
+          [
+            { label: 'Title', name: 'title', widget: 'string', required: true },
+            { label: 'Description', name: 'description', widget: 'string', required: true },
+            { label: 'Site', name: 'site', widget: 'string', required: true },
+            { label: 'Username', name: 'username', widget: 'string', required: true },
+            { label: 'Card Image', name: 'cardImage', widget: 'object',
+              fields:
+                [
+                  { label: 'Image', name: 'image', widget: 'string' },
+                  { label: 'alt', name: 'alt', widget: 'string' }
+                ]
+            }
+          ]
+      - label: 'Content'
+        name: 'content'
+        widget: 'list'
+        fields:
+          - { label: 'Heading', name: 'heading', widget: 'string' }
+          - { label: 'body', name: 'body', widget: 'markdown' }
+          - { label: 'Quote', name: 'quote', widget: 'object',
+              fields:
+                [
+                  { label: 'Quote', name: 'quote', widget: 'string' },
+                  { label: 'Citation', name: 'citation', widget: 'string' }
+                ]
+          }
+          - { label: 'Picture', name: 'picture', widget: 'object',
+              fields:
+                [
+                  { label: 'Image', name: 'image', widget: 'image' },
+                  { label: 'alt', name: 'alt', widget: 'string' }
+                ]
+          }
+
+
