@@ -97,8 +97,8 @@ content:
         mastery](https://amzn.to/2V8LmK8)"
     heading: ""
     picture:
-      image: https://geekiam.io
-      alt: asdfasdfasdf
+      image: ""
+      alt: ""
   - heading: Source Code Repository
     body: "The primary means developers interact with another and code, is through
       what is called a **_Source Code Repository_**
