@@ -64,6 +64,7 @@ content:
        * Re-engineering
        * Rewriting 
 
+
        
       This may be code developed by other software developers from all over the world, from different companies and more than
 
@@ -94,7 +95,7 @@ content:
         software.
       citation: "[Pragmatic Programmer - Your journey to
         mastery](https://amzn.to/2V8LmK8)"
-    heading: Introducing version control
+    heading: ""
     picture:
       image: https://geekiam.io
       alt: asdfasdfasdf
