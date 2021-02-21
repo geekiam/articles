@@ -63,20 +63,20 @@ collections:
         name: 'content'
         widget: 'list'
         fields:
-          - { label: 'Heading', name: 'heading', widget: 'string' }
-          - { label: 'body', name: 'body', widget: 'markdown' }
+          - { label: 'Heading', name: 'heading', widget: 'string', required: false }
+          - { label: 'body', name: 'body', widget: 'markdown', required: false }
           - { label: 'Quote', name: 'quote', widget: 'object',
               fields:
                 [
-                  { label: 'Quote', name: 'quote', widget: 'string' },
-                  { label: 'Citation', name: 'citation', widget: 'string' }
+                  { label: 'Quote', name: 'quote', widget: 'string', required: false },
+                  { label: 'Citation', name: 'citation', widget: 'string', required: false }
                 ]
           }
           - { label: 'Picture', name: 'picture', widget: 'object',
               fields:
                 [
-                  { label: 'Image', name: 'image', widget: 'image' },
-                  { label: 'alt', name: 'alt', widget: 'string' }
+                  { label: 'Image', name: 'image', widget: 'image', required: false },
+                  { label: 'alt', name: 'alt', widget: 'string', required: false }
                 ]
           }
       - label: "Tags"
