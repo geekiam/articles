@@ -20,6 +20,7 @@ collections:
     create: true
     slug: '{{slug}}'
     fields:
+      - {label: "Title", name: "title", widget: "string", required: true }
       - label: 'Meta'
         name: 'meta'
         widget: 'object'
