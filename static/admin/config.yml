@@ -79,3 +79,7 @@ collections:
                   { label: 'alt', name: 'alt', widget: 'string' }
                 ]
           }
+      - label: "Tags"
+        name: "tags"
+        widget: list
+        field: { label: "Tag", name: "tag", widget: "string" }
