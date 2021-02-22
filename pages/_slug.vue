@@ -1,14 +1,11 @@
 <template>
-  <div>
+  <div class="flex-grow w-full max-w-7xl mx-auto xl:px-8 lg:flex">
     <h1 v-html="article.info.title"></h1>
 
-    <nuxt-content :document="article"></nuxt-content>
-
-    <!--    <nuxt-content-->
-    <!--      v-for="(part, index) in article.content"-->
-    <!--      :key="index"-->
-    <!--      :document="part.body"-->
-    <!--    ></nuxt-content>-->
+    <nuxt-content
+      class="prose prose-md text-justify"
+      :document="article"
+    ></nuxt-content>
   </div>
 </template>
 

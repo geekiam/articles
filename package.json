@@ -28,7 +28,9 @@
     "@tailwindcss/forms": "^0.2.1",
     "@tailwindcss/typography": "^0.4.0",
     "core-js": "^3.8.3",
-    "nuxt": "^2.14.12"
+    "netlify-cli": "^3.8.5",
+    "nuxt": "^2.14.12",
+    "prism-themes": "^1.5.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
