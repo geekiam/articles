@@ -3,7 +3,7 @@
     <li
       v-for="post of posts"
       :key="post.slug"
-      class="relative pl-4 pr-6 py-5 hover:bg-gray-50 sm:py-6 sm:pl-6 lg:pl-8 xl:pl-6"
+      class="relative pl-2 pr-2 py-1 hover:bg-gray-50"
     >
       <card :post="post" />
     </li>
@@ -21,5 +21,3 @@ export default {
   },
 }
 </script>
-
-<style scoped></style>
