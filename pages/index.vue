@@ -20,7 +20,7 @@
             <!-- Start main area-->
             <div class="relative h-full" style="min-height: 36rem">
               <div class="absolute inset-0">
-                <card></card>
+                <list :posts="posts" />
               </div>
             </div>
             <!-- End main area -->
@@ -44,5 +44,20 @@
 </template>
 
 <script>
-export default {}
+import List from '../components/feed/list'
+export default {
+  components: { List },
+  async asyncData({ $content, params }) {
+    const posts = await $content('articles', params.slug)
+      .only(['info', 'tags'])
+      .sortBy('info.publishDate', 'desc')
+      .fetch()
+
+    // eslint-disable-next-line no-console
+    console.log(posts)
+    return {
+      posts,
+    }
+  },
+}
 </script>

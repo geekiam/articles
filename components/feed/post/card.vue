@@ -2,19 +2,15 @@
   <div
     class="md:flex shadow-lg mx-6 md:mx-auto my-40 max-w-lg md:max-w-2xl h-64"
   >
-    <card-image />
+    <card-image :feature="post.info.feature" />
     <div class="w-full md:w-2/3 px-4 py-4 bg-white rounded-lg">
       <div class="flex items-center">
-        <span class="text-sm text-green-800 font-medium mr-auto">
-          How to use Git version control
-        </span>
+        <span
+          class="text-sm text-green-800 font-medium mr-auto"
+          v-html="post.info.title"
+        ></span>
       </div>
-      <p class="text-xs text-gray-700 mt-4">
-        Lorem, ipsum dolor sit amet consectetur Amet veritatis ipsam reiciendis
-        numquam tempore commodi ipsa suscipit laboriosam, sit earum at sequ
-        adipisicing elit. Amet veritatis ipsam reiciendis numquam tempore
-        commodi ipsa suscipit laboriosam, sit earum at sequi.
-      </p>
+      <p class="text-xs text-gray-700 mt-4" v-html="post.info.summary"></p>
       <div class="flex items-center justify-end mt-4 top-auto"></div>
     </div>
   </div>
@@ -23,5 +19,11 @@
 <script>
 export default {
   name: 'Card',
+  props: {
+    post: {
+      type: Object,
+      required: true,
+    },
+  },
 }
 </script>
