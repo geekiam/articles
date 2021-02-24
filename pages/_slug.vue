@@ -1,11 +1,9 @@
 <template>
-  <div class="flex-grow w-full max-w-7xl mx-auto xl:px-8 lg:flex">
-    <h1 v-html="article.info.title"></h1>
-
-    <nuxt-content
-      class="prose prose-md text-justify"
-      :document="article"
-    ></nuxt-content>
+  <div>
+    <post-title :post="article" />
+    <div class="prose">
+      <nuxt-content class="text-justify" :document="article" />
+    </div>
   </div>
 </template>
 

@@ -24,10 +24,10 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/tailwindcss',
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -38,6 +38,7 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/moment',
     '@nuxtjs/cloudinary',
   ],
 
@@ -67,4 +68,12 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+  hooks: {
+    'content:file:beforeInsert': (document) => {
+      const stats = require('reading-time')(document.text)
+      if (document.extension === '.md') {
+        document.readTime = stats
+      }
+    },
+  },
 }
