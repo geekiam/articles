@@ -79,7 +79,7 @@ export default {
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: `https://articles.geekiam.io/twitter/${this.article.twitter.cardImage.image}.png`,
+          content: `https://articles.geekiam.io/twitter/${this.article.twitter.cardImage.image}`,
         },
       ],
       script: [{ src: 'https://platform.twitter.com/widgets.js', async: true }],
