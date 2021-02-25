@@ -16,7 +16,7 @@ export default {
   name: 'Tags',
   props: {
     tags: {
-      type: Object,
+      type: Array,
       required: true,
     },
   },

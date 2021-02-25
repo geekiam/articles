@@ -22,7 +22,7 @@ twitter:
   site: geekiam1
   username: gary_woodfine
   cardImage:
-    image: version-control
+    image: git-tutorials
     alt: learning the basics of version control
 tags:
   - git

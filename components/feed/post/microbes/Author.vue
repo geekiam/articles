@@ -12,9 +12,10 @@
       </svg>
     </div>
     <div class="flex-1">
-      <nuxt-link
+      <a
+        :href="`https://github.com/${author.github}`"
         class="hover:underline"
-        :to="{ name: 'author-slug', params: { slug: author.github } }"
+        target="_blank"
       >
         <div class="inline-flex">
           <span
@@ -27,7 +28,7 @@
             v-html="author.lastName"
           ></span>
         </div>
-      </nuxt-link>
+      </a>
     </div>
   </div>
 </template>
