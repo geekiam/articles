@@ -6,7 +6,7 @@ info:
   description: A detailed explanation on git version control system
   summary: Git is a popular version control system to help software developers
     maintain a version history of their code.
-  feature: git-tutorials
+  feature: post_feature/git-tutorials.svg
   author:
     firstName: Gary
     lastName: Woodfine
