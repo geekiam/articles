@@ -18,8 +18,8 @@
         <div class="bg-white lg:min-w-0 lg:flex-1">
           <div class="h-full py-2 px-2 sm:px-2 lg:px-2">
             <!-- Start main area-->
-            <div class="relative h-full" style="min-height: 36rem">
-              <div class="absolute inset-0 mt-5">
+            <div class="relative" style="min-height: 36rem">
+              <div class="inset-0 mt-5">
                 <list :posts="posts" />
               </div>
             </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-shrink-0 flex items-center">
+  <div class="relative">
     <div class="block lg:hidden h-300 w-300">
       <cld-image
         :public-id="feature"
