@@ -11,8 +11,7 @@
 export default {
   async asyncData({ $content, params }) {
     const article = await $content('articles', params.slug).fetch()
-    // eslint-disable-next-line no-console
-    console.log(article)
+
     return { article }
   },
   head() {

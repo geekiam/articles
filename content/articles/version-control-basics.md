@@ -159,7 +159,7 @@ required to the files, once they have completed their changes, they then submit 
 
 The users are dependent on the central server. If the server is unavailable for whatever reason, users cannot make any source management operations.
 
-![Centralised version control system model](/uploads/posts/git/centralised-version-control-model.jpg "Centralised version control system model")
+![Centralised version control system model](/media/images/git/centralised-version-control-model.jpg "Centralised version control system model")
 
 ### Distributed Version Control Systems
 
@@ -172,7 +172,7 @@ Once the user has completed all the changes they want to make to the local insta
 
 The key difference is that the users are performing their source management operations against the local copy repository.  It is only until the users push the changes back to the remote are they required to connect to the remote server. The connection between local and remote is not constant and is only activated when synchronisation between the two repositories is required.
 
-![Distributed version control system model](/uploads/posts/git/distributed-version-control-model.jpg "Distributed version control system model")
+![Distributed version control system model](/media/images/git/distributed-version-control-model.jpg "Distributed version control system model")
 
 
 
@@ -185,10 +185,10 @@ on the internet.  Whichever one your team uses, the role of this central reposit
 
 ### Git Version control
 
-In [what is git](https://geekiam.io/what-is-git/ "What is git? | Geek.I.Am") we discuss git in detail, its origin and
+In [what is git](/what-is-git/ "What is git? | Geek.I.Am") we discuss git in detail, its origin and
 and what makes it unique and why it has become popular with developers the world over.
 
-We also guide you through the process of [How To Install Git On Linux](https://geekiam.io/how-to-install-git-on-linux/ "How to install Git on Linux | Geek.I.Am")
+We also guide you through the process of [How To Install Git On Linux](/how-to-install-git-on-linux/ "How to install Git on Linux | Geek.I.Am")
 and how to do the basic amount of configuration required to start working with git.
 
 ### What are the benefits of version control systems
