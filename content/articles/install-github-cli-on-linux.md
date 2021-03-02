@@ -6,7 +6,7 @@ info:
   description: " Install and basic usage instructions on using the GitHub CLI on Linux"
   summary: How to install GitHub CLI on Linux and basic usage instructions to help
     you get started
-  feature: feature/git-tutorials
+  feature: post_feature/git-tutorials.svg
   author:
     firstName: Gary
     lastName: Woodfine
