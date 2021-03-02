@@ -50,8 +50,8 @@ collections:
           [
             { label: 'Title', name: 'title', widget: 'string', required: true },
             { label: 'Description', name: 'description', widget: 'string', required: true },
-            { label: 'Site', name: 'site', widget: 'select', required: true,  options:['geekiam1'] },
-            { label: 'Username', name: 'username', widget: 'select', required: true, options:['gary_woodfine'] },
+            { label: 'Site', name: 'site', widget: 'select', required: true, options: ['geekiam1', 'threenine39']},
+            { label: 'Username', name: 'username', widget: 'select', required: true, options: ['gary_woodfine', 'threenine39']},
             { label: 'Card Image', name: 'cardImage', widget: 'object',
               fields:
                 [
