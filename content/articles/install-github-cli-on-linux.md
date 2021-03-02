@@ -1,7 +1,7 @@
 ---
 title: install github cli on linux
+publishDate: 2020-10-15T15:03:18.952Z
 info:
-  publishDate: 2020-10-15T15:03:18.952Z
   title: how to install github cli on linux
   description: " Install and basic usage instructions on using the GitHub CLI on Linux"
   summary: How to install GitHub CLI on Linux and basic usage instructions to help

@@ -1,7 +1,7 @@
 ---
 title: advanced git configuration options
+publishDate: 2020-10-01T16:04:08.120Z
 info:
-  publishDate: 2020-10-01T16:04:08.120Z
   title: How to configure advanced git options
   description: Learn more about advanced fit configuration options to configure
     your git environment to manage your content and interactions

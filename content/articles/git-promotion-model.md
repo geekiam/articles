@@ -1,7 +1,7 @@
 ---
 title: " git promotion model"
+publishDate: 2020-10-05T19:03:19.841Z
 info:
-  publishDate: 2020-10-05T19:03:19.841Z
   title: Understanding the Git Promotion Model
   description: Understanding the purpose and functionality of these layers is key
     to gaining an understanding of how Git works

@@ -1,7 +1,7 @@
 ---
 title: How to install git on Linux
+publishDate: 2020-09-05T19:36:30.077Z
 info:
-  publishDate: 2020-09-05T19:36:30.077Z
   title: How to install git on Linux
   description: tutorial to install and configure Git distributed version control
     system on Debian based Linux distributions

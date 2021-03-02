@@ -1,7 +1,7 @@
 ---
 title: automate creating gitignore files
+publishDate: 2020-09-23T19:51:34.258Z
 info:
-  publishDate: 2020-09-23T19:51:34.258Z
   title: How to automate creating gitignore files
   description: " A git ignore file allows you to exclude files from your git
     commits. Learn how to easily automate the creation of .gitignore files."

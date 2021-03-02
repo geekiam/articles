@@ -21,6 +21,7 @@ collections:
     slug: '{{slug}}'
     fields:
       - {label: "Title", name: "title", widget: "string", required: true }
+      - {label: 'Publish Date', name: 'publishDate', widget: 'date', required: true},
       - label: 'Info'
         name: 'info'
         widget: 'object'
@@ -29,14 +30,13 @@ collections:
             { label: 'Title', name: 'title', widget: 'string', required: true },
             { label: 'Description', name: 'description', widget: 'string', required: true },
             { label: 'Summary', name: 'summary', widget: 'markdown', required: true },
-            { label: 'Publish Date', name: 'publishDate', widget: 'date', required: true},
             { label: 'Feature image path', name: 'feature', widget: 'select', required: true, options: ['post_feature/git-tutorials.svg', 'post_feature/package-manager.svg', 'post_feature/vue-tutorials.svg', 'post_feature/code-tutorials.svg', 'post_feature/linux-tutorials.svg', 'post_feature/authentication-tutorials.svg']},
             { label: 'Author', name: 'author', widget: 'object',
               fields:
                 [
                   { label: 'Firstname', name: 'firstName', widget: 'string', required: true },
                   { label: 'Lastname', name: 'lastName', widget: 'string', required: true },
-                  { label: 'Github Username', name: 'github', widget: 'string', required: true }
+                  { label: 'Github Username', name: 'github', widget: 'select', required: true, options: ['garywoodfine']  }
                 ]
             },
             { label: 'Keywords', name: 'keywords',  widget: list,

@@ -1,7 +1,7 @@
 ---
 title: global git ignore file
+publishDate: 2020-09-23T19:15:27.385Z
 info:
-  publishDate: 2020-09-23T19:15:27.385Z
   title: Why you  should have a global git ignore file
   description: A git ignore file allows you to exclude files from your
     git   commits. Learn how to easily automate the creation of .gitignore
