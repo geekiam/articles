@@ -27,10 +27,8 @@ twitter:
 tags:
   - git
 ---
-n [Learn The Basics Of Version Control To Become A Master](version-control-basics/ "The Basics Of Version Control | Geek.I.Am") we 
-discussed the basic principles, use cases and terms regarding version control. You have more than likely now realised 
-that all software projects will require some form of version control.  Even if you are the only developer that will be 
-working on the project, it makes absolute sense to create a version control repository.
+We previously discussed the [the Basics Of Version Control](/version-control-basics/ "The Basics Of Version Control | Geek.I.Am") including the basic principles, use cases and terms. You have more than likely now realised 
+that all software projects will require some form of version control.  Even if you are the only developer that will be working on the project, it makes absolute sense to create a version control repository.
 
 Version control systems not only help you in keeping track of changes and overcoming errors whilst coding, but they also
  help you to keep your code safe and helping ensure you never lose or delete your code.  
