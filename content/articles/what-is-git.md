@@ -26,7 +26,7 @@ twitter:
 tags:
   - git
 ---
-In [Learn The Basics Of Version Control To Become A Master](https://geekiam.io/learn-the-basics-of-version-control-to-become-a-master/) we discussed the basics of version control systems and discussed their background and why they have become become a vital component in all software development projects.
+We've previously discussed the [Basics Of Version Control](/basics-of-version-control/ "The Basics of version control | Geek.I.Am") providing background and why it is a vital component in all software development projects.
 
 Over the years software developers have explored and used many different approaches and tools for version control systems and the current most popular tool in use today is [git distributed version control](https://git-scm.com/ "Git - free and open source distributed version control system")
 
