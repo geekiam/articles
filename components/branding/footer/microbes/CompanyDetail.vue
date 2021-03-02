@@ -13,7 +13,7 @@
       />
     </div>
     <p class="text-gray-500 text-base">
-      Making the world a better place through constructing elegant hierarchies.
+      Ensuring education is open to everyone
     </p>
     <social-media />
   </div>
