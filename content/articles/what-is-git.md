@@ -21,7 +21,7 @@ twitter:
   site: geekiam1
   username: gary_woodfine
   cardImage:
-    image: coding
+    image: git-tutorials.jpg
     alt: what is git
 tags:
   - git

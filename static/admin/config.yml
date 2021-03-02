@@ -55,7 +55,7 @@ collections:
             { label: 'Card Image', name: 'cardImage', widget: 'object',
               fields:
                 [
-                  { label: 'Image', name: 'image', widget: 'select', options: ['version-control', 'coding', 'javascript'] },
+                  { label: 'Image', name: 'image', widget: 'select', options: ['git-tutorials.jpg', 'code-tutorials.png', 'javascript-tutorials.png', 'code-tutorials-2.png', 'vue-tutorials.png'] },
                   { label: 'alt', name: 'alt', widget: 'string' }
                 ]
             }

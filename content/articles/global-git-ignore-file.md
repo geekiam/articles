@@ -25,7 +25,7 @@ twitter:
   site: geekiam1
   username: gary_woodfine
   cardImage:
-    image: version-control
+    image: git-tutorials.jpg
     alt: how to configure a global gitignore file
 tags:
   - git

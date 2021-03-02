@@ -22,7 +22,7 @@ twitter:
   site: geekiam1
   username: gary_woodfine
   cardImage:
-    image: version-control
+    image: git-tutorials.jpg
     alt: How to configure advanced git options
 tags:
   - git

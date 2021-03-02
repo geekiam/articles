@@ -23,7 +23,7 @@ twitter:
   site: geekiam1
   username: gary_woodfine
   cardImage:
-    image: version-control
+    image: git-tutorials.jpg
     alt: Learning and understanding the git promotion model
 tags:
   - git
