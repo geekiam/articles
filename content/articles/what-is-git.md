@@ -1,7 +1,7 @@
 ---
 title: what is git
 info:
-  publishDate: 2020-11-16T20:12:31.636Z
+  publishDate: 2020-09-01T20:12:31.636Z
   title: what is git
   description: A detailed explanation on git version control system
   summary: Git is a popular version control system to help software developers
