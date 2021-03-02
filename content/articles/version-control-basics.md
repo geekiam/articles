@@ -1,7 +1,7 @@
 ---
 title: version control basics
 info:
-  publishDate: 2021-02-21T19:47:05.792Z
+  publishDate: 2020-09-01T19:47:05.792Z
   title: The basics of version control
   description: Software developers need to learn and master version control to succeed
   feature: post_feature/git-tutorials.svg
