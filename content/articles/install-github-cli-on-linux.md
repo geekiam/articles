@@ -60,7 +60,7 @@ It's free and open-source software released and maintained by Github.
 
 ### How to install GitHub CLI on Linux
 
-In order to install Github CLI on Debian/Ubuntu Linux you can use the [Apt Package Manager](https://geekiam.io/what-is-a-linux-package-manager/ "What is a Linux Package Manager | Geek.I.Am")
+In order to install Github CLI on Debian/Ubuntu Linux you can use the [Apt Package Manager](/what-is-a-linux-package-manager/ "What is a Linux Package Manager | Geek.I.Am")
 but you will first need to add a reference to the package repository.
 
 ```shell script
@@ -87,12 +87,12 @@ You can generate a new Personal Access Token by visiting [Personal Access Tokens
 Once you have created and made note of your Personal Access Token, you can use the `gh auth login` and follow the prompts
 choosing your preferred options.
 
-![Github CLI Authentication ](/uploads/github-cli-registration.png "Github CLI Authentication")
+![Github CLI Authentication ](/media/images/git/github-cli-registration.png "Github CLI Authentication")
 
 Once you have authenticated using `gh`  you can now start using it to access and accomplish all manner of common 
 Github tasks you could only previously achieve making use of the Web Interface or other third party applications.
 
-In [How To Create A New Github Repository Using The Terminal](https://geekiam.io/how-to-create-a-new-github-repository-using-the-terminal/ "How To Create A New Github Repository Using The Terminal | Geek.I.Am")
+In [How To Create A New Github Repository Using The Terminal](/how-to-create-a-new-github-repository-using-the-terminal/ "How To Create A New Github Repository Using The Terminal | Geek.I.Am")
 we illustrated how to make use of the `gh` to create new Github hosted repository from the command line. This is a great
 use case for the Github CLI, however obviously it is capable of so much more and will become one of your favourite tools
 as you become more familiar with it.
@@ -103,7 +103,7 @@ and learning these commands can be quite difficult.  The Github CLI comes with a
 and you can get help for each command if you use `--help` on each command. i.e. if you want to get additional information 
 regarding repo command you can simply use `gh repo --help`
 
-![Github CLI Repo Help ](/uploads/github-cli-repo-help.png "Github CLI Repo Help")
+![Github CLI Repo Help ](/media/images/git/github-cli-repo-help.png "Github CLI Repo Help")
 
 You can also add an additional help feature to Github CLI by enabling the autocomplete functionality. Which will enable you
 the enter the name of the command and then TAB TAB to display the list of options associated with the command.  To do so
@@ -115,12 +115,12 @@ eval "$(gh completion -s bash)"
 Once added you can now open a terminal window to get the autocomplete type `gh repo`, then press tab twice. It should 
 show you four different commands you can append to the current repo command.
 
-![Github CLI autocomplete ](/uploads/github-cli-autocomplete.png "Github CLI autocomplete")
+![Github CLI autocomplete ](/media/images/git/github-cli-autocomplete.png "Github CLI autocomplete")
  
  ### Github CLI Command Structure
  The `gh` command structure is tree-like and fairly easy to remember. There are basically two levels of commands; 
  
- ![Github CLI command level ](/uploads/github-cli-command-level.png "Github CLI command level")
+ ![Github CLI command level ](/media/images/git/github-cli-command-level.png "Github CLI command level")
  #### Level 1
  The first level consists of 6 commands
  
