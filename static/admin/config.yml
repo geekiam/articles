@@ -21,7 +21,7 @@ collections:
     slug: '{{slug}}'
     fields:
       - {label: "Title", name: "title", widget: "string", required: true }
-      - {label: 'Publish Date', name: 'publishDate', widget: 'date', required: true},
+      - {label: 'Publish Date', name: 'publishDate', widget: 'date', required: true}
       - label: 'Info'
         name: 'info'
         widget: 'object'
