@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-1 my-1 px-1 py-1">
+  <div class="mx-1 my-1 px-2 py-2">
     <post-title :post="article" />
     <div class="prose">
       <nuxt-content class="text-justify" :document="article" />

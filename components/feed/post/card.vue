@@ -16,7 +16,7 @@
           <div
             class="flex items-center justify-start mt-4 top-auto text-green-700"
           >
-            <tags :tags="post.tags" />
+            <div class="flex-initial"><tags :tags="post.tags" /></div>
           </div>
         </div>
       </div>
