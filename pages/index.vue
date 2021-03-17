@@ -20,7 +20,7 @@
             <!-- Start main area-->
             <div class="relative" style="min-height: 36rem">
               <div class="inset-0 mt-5">
-                <list :posts="posts" />
+                <FeedList :posts="posts" />
               </div>
             </div>
             <!-- End main area -->
@@ -44,9 +44,8 @@
 </template>
 
 <script>
-import List from '../components/feed/list'
+
 export default {
-  components: { List },
   async asyncData({ $content, params }) {
     const posts = await $content('articles', params.slug)
       .only(['info', 'tags', 'slug'])

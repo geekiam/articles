@@ -20,7 +20,6 @@
 export default {
   props: {
     publishDate: {
-      type: String,
       required: true,
     },
   },

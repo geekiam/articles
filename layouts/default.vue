@@ -1,12 +1,15 @@
 <template>
   <div>
-    <site-header />
+    <BrandingHeaderSiteHeader />
     <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
       <Nuxt />
     </div>
-    <site-footer />
+    <BrandingFooterSiteFooter />
   </div>
 </template>
 <script>
-export default {}
+
+export default {
+
+}
 </script>

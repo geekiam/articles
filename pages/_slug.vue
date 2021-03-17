@@ -1,8 +1,8 @@
 <template>
   <div class="mx-1 my-1 px-2 py-2">
-    <post-title :post="article" />
-    <div class="prose">
-      <nuxt-content class="text-justify" :document="article" />
+    <FeedPostTitle :post="article" />
+    <div>
+      <nuxt-content class="text-justify prose prose-xl" :document="article" />
     </div>
   </div>
 </template>

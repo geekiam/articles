@@ -1,6 +1,6 @@
 <template>
   <div class="mt-4 mb-4 px-2">
-    <ul class="grid grid-cols-3 gap-1">
+    <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-1">
       <li v-for="tag in tags" :key="tag.id" class="col-span-1 text-sm">
         <nuxt-link
           :to="{ name: 'tags-slug', params: { slug: tag } }"

@@ -15,7 +15,7 @@
     <p class="text-gray-500 text-base">
       Ensuring education is open to everyone
     </p>
-    <social-media />
+    <BrandingFooterMicrobesSocialMedia />
   </div>
 </template>
 

@@ -6,11 +6,11 @@
       <h1 class="capitalize" v-html="post.info.title"></h1>
     </div>
     <div class="flex flex-row mb-3 mt-3 text-sm">
-      <publish-date :publish-date="post.info.publishDate" />
-      <author :author="post.info.author" />
-      <read-time :time-to-read="post.readTime.text" />
+      <FeedPostMicrobesPublishDate :publish-date="post.info.publishDate" />
+      <FeedPostMicrobesAuthor :author="post.info.author" />
+      <FeedPostMicrobesReadTime :time-to-read="post.readTime.text" />
     </div>
-    <tags :tags="post.tags" />
+    <FeedPostMicrobesTags :tags="post.tags" />
   </div>
 </template>
 

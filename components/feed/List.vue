@@ -5,7 +5,7 @@
       :key="post.slug"
       class="relative pl-2 pr-2 py-1 hover:bg-gray-50"
     >
-      <card :post="post" />
+      <FeedPostCard :post="post" />
     </li>
   </ul>
 </template>

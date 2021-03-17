@@ -1,3 +1,4 @@
+import tailwindTypography from '@tailwindcss/typography'
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -13,6 +14,12 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
+  tailwindcss: {
+    jit: true,
+    config: {
+      plugins: [tailwindTypography],
+    },
+  },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 
