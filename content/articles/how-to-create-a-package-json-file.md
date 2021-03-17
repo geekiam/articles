@@ -31,7 +31,7 @@ tags:
   - npm
   - yarn
 ---
-In [How to use Package Management In Javascript projects](/how-to-use-package-management-in-java-script-projects) we discussed project specific node package management configuration options and also introduced the `package.json` file and how it is used as the configuration management repository.
+In [How to use Package Management In Javascript projects](/how-to-use-package-management-in-javascript-projects "How to use Package Management In Javascript projects | Geek.I.Am") we discussed project specific node package management configuration options and also introduced the `package.json` file and how it is used as the configuration management repository.
 
 In this, we will take a deeper dive into the `package.json` and explore it further.
 
