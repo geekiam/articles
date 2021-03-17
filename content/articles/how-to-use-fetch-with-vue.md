@@ -53,7 +53,7 @@ Rest based API's enable developers to build API layers for multiple applications
 types of Front End applications i.e. Web, Mobile, Desktop and even Command Line applications to communicate with the
 same back end based services and data stores.
 
-![ REST API ](/uploads/rest-api.png "REST API")
+![ REST API ](/media/images/javascript/rest-api.png "REST API")
 
 The data is transferred between the layers using either XML or JSON data payloads.  Front end applications make use 
 of either `XMLHttpRequest` or the relatively new `fetch` API to request and transfer data from the backend API.
@@ -66,7 +66,7 @@ The Fetch API has been available in the Service Worker global scope since Chromi
  The Fetch API is a simpler, easy-to-use version of XMLHttpRequest to consume resources asynchronously. Fetch lets you 
  work with REST APIs with additional options like caching data, reading streaming responses, and more.
  
- Fetch works using [Promises](https://geekiam.io/what-are-javascript-promises "What are Javascript promises"), which makes
+ Fetch works using [Promises](/what-are-javascript-promises "What are Javascript promises | Geek.I.Am"), which makes
  it easy to write code to handle asynchronous requests. 
  
  A basic fetch request to retrieve user data from the Github API may look like:
@@ -83,7 +83,7 @@ may contain options like method, headers, request body etc.
 The Fetch response object contains information about the response object itself. This includes headers, status code, etc. 
 The `res.json()` function gets the data we need from the response object.
 
-![Github User Profile ](/uploads/github-user-profile.png "Github user profile")
+![Github User Profile ](/media/images/javascript/github-user-profile.png "Github user profile")
 
 The Fetch API supports requests including:
 * GET
@@ -268,8 +268,8 @@ The format of an HTTP POST should have HTTP headers, followed by a blank line, f
 request can be used to submit a web form or upload a file, but it is critical to ensure that the receiving application 
 resonates with the format being used. The Content-Type header indicates the type of body in the POST request.
 
-In the example below we are going to post data to a [Netlify function](https://geekiam.io/how-to-build-a-netlify-function/ "How to build a netlify function | Geek.I.Am")
-to post JSON data. We will be making use of the [JavaScript Async/Await promise pattern](https://geekiam.io/what-is-a-javascript-promise/ "What Is A Javascript Promise | Geek.I.Am")
+In the example below we are going to post data to a [Netlify function](/how-to-build-a-netlify-function/ "How to build a netlify function | Geek.I.Am")
+to post JSON data. We will be making use of the [JavaScript Async/Await promise pattern](/what-is-a-javascript-promise/ "What Is A Javascript Promise | Geek.I.Am")
 
 `POST` is NOT idempotent. So if you retry the request `N` times, you will end up having `N` resources with `N` different 
 URIs created on server.
