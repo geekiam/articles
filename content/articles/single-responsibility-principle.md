@@ -45,3 +45,23 @@ The key point to keep in mind, is that small succinct classes are optimal.
 The primary objective behind the Single Responsibility Principle is to try to avoid creating objects and classes that have too many responsibilities, grouping different behaviours and unrelated functionality thus making classes harder to maintain and change.
 
 
+### Benefits
+1. **Reduces Code Complexity**
+The code in a class is focused satisfying a particular functionality, which reduces the complexity.
+
+2. **Improved readability, maintainability and extensibility**
+Each class and method have single functionality and therefore easy to read and understand.
+
+3. **Improved Testability**
+Easier and more efficient to write Unit tests
+
+4. **Reusability**
+By ensuring classes and methods focus on achieving one thing it is easier to re-use the methods.
+
+5. **Reduced coupling**
+classes are less dependent on each other. 
+
+
+
+
+
