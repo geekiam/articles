@@ -32,13 +32,16 @@ tags:
   - clean
   - architecture
 ---
-The single responsibility principle (SRP) states that a software component must have only one responsibility. The fact 
-
-that the class has a sole responsibility means that it is in charge of doing just one concrete thing, and as a 
-consequence of that, we can conclude that it must have only one reason to change. 
+The ***Single Responsibility Principle (SRP)*** states that a software component must have only one responsibility. The fact that the class has a sole responsibility means that it is in charge of doing just one concrete thing, and as a consequence of that, we can conclude that it must have only one reason to change. 
 
 > A class should have only one reason to change.
 
-There is another way of looking at this principle. If, when looking at a class, we find methods that are mutually 
-exclusive and do not relate to each other, they are the different responsibilities that have to be broken down into 
-smaller classes. Remember that the smaller classes are always better.
+One way to determine if your class is in breach of the Single Responsibility Principle if you find methods that are mutually exclusive and do not relate to each other, they are the different responsibilities that have to be broken down into smaller classes.
+
+The key point to keep in mind, is that small succinct classes are optimal.
+
+### Problem Domain
+
+The primary objective behind the Single Responsibility Principle is to try to avoid creating objects and classes that have too many responsibilities, grouping different behaviours and unrelated functionality thus making classes harder to maintain and change.
+
+
