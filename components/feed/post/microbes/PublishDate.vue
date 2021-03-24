@@ -20,6 +20,7 @@
 export default {
   props: {
     publishDate: {
+      type: undefined,
       required: true,
     },
   },
