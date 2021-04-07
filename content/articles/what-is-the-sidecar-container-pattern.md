@@ -48,5 +48,6 @@ Kubernetes caters for two different types of Pod configuration:
 * Multi Container pod
 
 ### What are Side Car Containers
+
 Side car container is a popular Multi Container pod pattern. They are typically containers that run along with the main container in a pod, extending and enhancing the functionality of the main container without changing it.
 
