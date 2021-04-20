@@ -70,4 +70,14 @@ Side car container is a popular Multi Container pod pattern. They are typically 
 
 A sidecar is a pattern where a Pod contains another container in addition to the actual application container to be run. This additional container is the sidecar. Sidecars can be used for a number of different reasons. Some of the most popular uses for sidecars are monitoring, logging, and proxying.
 
+#### Pod networking
+Pods have their own IP addresses that can be used in inter-pod communication. Each Pod has an IP address as well as ports, which are shared among the containers running in a Pod if there is more than one container.
 
+Within a Pod, containers can communicate without calling the wrapping Pod's IP – instead they can simply use localhost. This is because containers within a Pod share a network namespace – in essence, they communicate via the same bridge, which is implemented using a virtual network interface.
+
+#### Pod Storage
+Pod storage can be either persistent or non-persistent volumes attached to a Pod. Non-persistent volumes can be used by a Pod to store data or files depending on the type, but they are deleted when the Pod shuts down. Persistent-type volumes will remain past Pod shutdown and can even be used to share data between multiple Pods or applications.
+
+#### Namespaces
+
+Namespaces are a way to logically separate different areas within your cluster. A common use case is having a namespace per environment – one for dev, one for staging, one for production – all living inside the same cluster.
