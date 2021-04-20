@@ -71,4 +71,4 @@ Multi container pods are more complex but are useful in various scenarios:
 
 * If there are multiple parts of your application that run in separate containers but are tightly coupled, you can run them both inside the same Pod to make communication and filesystem access seamless.
 
-* When implementing the sidecar pattern, where utility containers are injected alongside your main application to handle logging, metrics, networking, or advanced functionality such as a Service Mesh and [Dapr (Distributed Application Runtime)(https://garywoodfine.com/getting-started-with-net-core-microservices-with-dapr/ "Getting started with .net core microservices with dapr | Gary  Woodfine") 
+* When implementing the sidecar pattern, where utility containers are injected alongside your main application to handle logging, metrics, networking, or advanced functionality such as a Service Mesh and [Dapr -Distributed Application Runtime](https://garywoodfine.com/getting-started-with-net-core-microservices-with-dapr/ "Getting started with .net core microservices with dapr | Gary  Woodfine") 
