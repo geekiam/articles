@@ -34,9 +34,8 @@ Containers encapsulate an application as a single executable package of software
 ### What is Kubernetes
 
 > Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. 
-> 
+>
 > [kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/ "What is kubernetes")
-
 
 *Kubernetes* is an open-source container orchestration engine for automating deployment, scaling, and management of containerized applications. A **pod** is the basic building block of kubernetes application.
 
@@ -51,3 +50,25 @@ Kubernetes caters for two different types of Pod configuration:
 
 Side car container is a popular Multi Container pod pattern. They are typically containers that run along with the main container in a pod, extending and enhancing the functionality of the main container without changing it.
 
+### What are Pods
+Pods are implemented using Linux isolation tenets such as groups and namespaces and can be generally thought of as a Logical Host Machine. Pods run one of more containers and these containers communicate with each other in the same ways that different processes on a Virtual Machine communicate.
+
+In order for containers within two different Pods to communicate, they need to access the other Pod (and container) via its IP. By default, only containers running on the same Pod can use lower-level methods of communication, though it is possible to configure different Pods with the availability to talk to each other via host IPC.
+
+### Types of Pods
+There are two types of Pods
+
+* Single-Container Pods
+* Multi-container pods
+
+#### Single Container Pods
+
+A generally considered best practice approach is only to take a single container per pod approach, because this enables the best opportunities to scale different parts of your application separately well at the same time keeping things simple and enabling pods to start/run without issues.
+
+#### Multi Container pods
+
+Multi container pods are more complex but are useful in various scenarios:
+
+* If there are multiple parts of your application that run in separate containers but are tightly coupled, you can run them both inside the same Pod to make communication and filesystem access seamless.
+
+* When implementing the sidecar pattern, where utility containers are injected alongside your main application to handle logging, metrics, networking, or advanced functionality such as a Service Mesh and [Dapr (Distributed Application Runtime)(https://garywoodfine.com/getting-started-with-net-core-microservices-with-dapr/ "Getting started with .net core microservices with dapr | Gary  Woodfine") 
