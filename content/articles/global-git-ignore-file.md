@@ -33,7 +33,7 @@ tags:
 One of the most common Git configuration tasks that developers often miss is the Global Git ignore configuration.
 
 We have previously discussed useful options you may choose to configure in [Advanced Git Configuration Options](/advanced-git-configuration-options/ "Advanced Git Configuration Options | Geek.I.Am")
-and even [How To Automate Creating Gitignore Files](/how-to-automate-creating-gitignore-files/ "How To Automate Creating Gitignore Files | Geek.I.Am").
+and even [How To Automate Creating Gitignore Files](/automate-creating-gitignore-files/ "How To Automate Creating Gitignore Files | Geek.I.Am").
 
 Git ignore files are a great way of ensuring that certain files or files of a particular type do not get included in
 your local repository when making commits.  For instance, you may not want to commit compiled code, or system logs, or 
