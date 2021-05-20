@@ -58,4 +58,10 @@ Here comes the role of CQRS which stands for “Command Query Responsibility Seg
 
 Traditional operations such as CRUD – create, read, update and delete are mainstream operations carried out on databases regularly. But as our needs become more sophisticated, we turn on to new and efficient ways of working with data. By separating the command and query operations means that operations run on separate logical processes, probably on a separate hardware. A change initiated in a database routes to the command model for updating the database and then later the query model for reading from database.
 
-The main use of “CQRS”model being using it in high-performance applications to scale read and write operations. Thus, every method should either be a command or be a query that performs separate actions but not both simultaneously.
+### Command Query Responsibility Segregation
+
+Command Query Responsibility Segregation (CQRS) is a Software Design pattern which at a very high level defines the notion that developers use different models for Read and Update processes.
+
+The main use of *CQRS* pattern using it in high-performance applications to scale read and write operations. Thus, every method should either be a *Command* or a *Query* that performs separate actions but not both simultaneously.
+
+The conventional intuitive approach in software development when developing CRUD (Create Read Update Delete) applications, is to use the same mental model
