@@ -64,4 +64,36 @@ Command Query Responsibility Segregation (CQRS) is a Software Design pattern whi
 
 The main use of *CQRS* pattern using it in high-performance applications to scale read and write operations. Thus, every method should either be a *Command* or a *Query* that performs separate actions but not both simultaneously.
 
-The conventional intuitive approach in software development when developing CRUD (Create Read Update Delete) applications, is to use the same mental model
+The conventional intuitive approach in software development when developing CRUD (Create Read Update Delete) applications, is to use the same mental model. We tend to think in terms of how everything relates to a Single model view of an object.
+
+[ Diagram does here ]
+
+However, over time the needs and solutions become more sophisticated and we steadily change our thought processes and we start to look and need information in different ways.  Usually collapsing the Model to provide scaled down representations or removing some elements of data that is not needed to satisfy a business need and in other cases we only need to update selective bit of information. We also find that there are different sets of business validation rules that need to applied at different stages of the object update process.
+
+It is at this stage we realise that we need multiple representations of the information and also as more users interact with the information they start to require various alternative presentations of this data, with different representations. 
+
+The multi layers of representations of the data introduces a lot of complexity, which often includes a number of similarly named properties etc. The single conceptual representation acts as the main conceptual integration point, and introduces confusion. Having the same conceptual model for commands and queries leads to a more complex model that does neither well.
+
+Using the *CQRS* we are able to split the conceptual models into separate models for Update and Retrieval , referring to them as Command and Query objects respectively.
+
+Separating the models we inevitably evolve to having to different object models, which can also be executed in different logical processes and even in separate containers and hardware.
+
+### Where does CQRS fit in with other Architectural patterns
+
+CQRS is a natural fit with the following:
+
+* Task based UI systems
+* Event-based programming models
+* Event-Driven Microservices
+* Eventual Consistency
+* Domain Driven Design
+
+### When to use CQRS
+
+It must be stressed that CQRS is not the golden hammer of software design patterns. Teams can get themselves into more trouble trying to implement CQRS based systems than actually solving their initial problem.
+
+In the world of Event-Driven Microservices CQRS is a natural choice, because ultimately many of these implementations are modelled after the Domain Driven Design concepts of Bounded Contexts, which means each Bounded Context needs its own decisions on how it should be modelled.
+
+ CQRS allows you to separate the load from reads and writes allowing you to scale each independently. Which makes it an ideal choice if you are developing high performance applications.
+
+CQRS should also be used with caution and you should remember that while CQRS is a good pattern to have in the toolbox, beware that it is difficult to use well and you can easily chop off important bits if you mishandle it.
