@@ -81,6 +81,8 @@ Using the *CQRS* we are able to split the conceptual models into separate models
 
 Separating the models we inevitably evolve to having to different object models, which can also be executed in different logical processes and even in separate containers and hardware.
 
+![](https://res.cloudinary.com/geekiam-io/image/upload/v1621538199/Flowchart_8_ju9wbh.jpg)
+
 ### Where does CQRS fit in with other Architectural patterns
 
 CQRS is a natural fit with the following:
