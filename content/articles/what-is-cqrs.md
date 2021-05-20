@@ -69,7 +69,7 @@ The main use of *CQRS* pattern using it in high-performance applications to scal
 
 The conventional intuitive approach in software development when developing CRUD (Create Read Update Delete) applications, is to use the same mental model. We tend to think in terms of how everything relates to a Single model view of an object.
 
-![Non CQRS ](https://res.cloudinary.com/geekiam-io/image/upload/v1621535359/non-cqrs_pjycj9.jpg)
+![Non CQRS ](https://res.cloudinary.com/geekiam-io/image/upload/v1621536138/non-cqrs-diag_dvkdnf.jpg)
 
 However, over time the needs and solutions become more sophisticated and we steadily change our thought processes and we start to look and need information in different ways.  Usually collapsing the Model to provide scaled down representations or removing some elements of data that is not needed to satisfy a business need and in other cases we only need to update selective bit of information. We also find that there are different sets of business validation rules that need to applied at different stages of the object update process.
 
