@@ -64,4 +64,10 @@ Command Query Responsibility Segregation (CQRS) is a Software Design pattern whi
 
 The main use of *CQRS* pattern using it in high-performance applications to scale read and write operations. Thus, every method should either be a *Command* or a *Query* that performs separate actions but not both simultaneously.
 
-The conventional intuitive approach in software development when developing CRUD (Create Read Update Delete) applications, is to use the same mental model
+The conventional intuitive approach in software development when developing CRUD (Create Read Update Delete) applications, is to use the same mental model. We tend to think in terms of how everything relates to a Single model view of an object.
+
+[ Diagram does here ]
+
+However, over time the needs and solutions become more sophisticated and we steadily change our thought processes and we start to look and need information in different ways.  Usually collapsing the Model to provide scaled down representations or removing some elements of data that is not needed to satisfy a business need and in other cases we only need to update selective bit of information. We also find that there are different sets of business validation rules that need to applied at different stages of the object update process.
+
+It is at this stage we realise that we need multiple representations of the information and also as more users interact with the information they start to require various alternative presentations of this data, with different representations. 
