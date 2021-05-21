@@ -102,3 +102,15 @@ In the world of Event-Driven Microservices CQRS is a natural choice, because ult
  CQRS allows you to separate the load from reads and writes allowing you to scale each independently. Which makes it an ideal choice if you are developing high performance applications.
 
 CQRS should also be used with caution and you should remember that while CQRS is a good pattern to have in the toolbox, beware that it is difficult to use well and you can easily chop off important bits if you mishandle it.
+
+A fairly common implementation of the CQRS pattern, is when a web based API, is split into two distinct Microservices 1 Microservice is Responsible for Read Operations  and the other is responsible for Write Operations.
+
+This may be because there is more READS than there are WRITES the services may want to use more cache etc to reduce latency. 
+
+This obviously does create a bit more overhead when it comes to separating and moving logic from a centralised domain object into multiple action objects.
+
+
+
+### The Mediator Pattern 
+
+A popular [software design pattern](https://garywoodfine.com/software-design-patterns/ "Software Design Patterns | Gary Woodfine") used when implementing CQRS is the [Mediator Pattern](https://garywoodfine.com/the-mediator-pattern/ "The Mediator Pattern | Gary Woodfine")
