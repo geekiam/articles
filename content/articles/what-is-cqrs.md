@@ -105,7 +105,7 @@ CQRS should also be used with caution and you should remember that while CQRS is
 
 A fairly common implementation of the CQRS pattern, is when a web based API, is split into two distinct Microservices 1 Microservice is Responsible for Read Operations  and the other is responsible for Write Operations.
 
-This may be because there is more READS than there are WRITES the services may want to use more cache etc to reduce latency. 
+This may be because there is more READ operations  than there are WRITE operations the services may want to use more cache etc to reduce latency.  In this instance an organisation may want to break up the implementation of the API into two separate services but with access via an API Gateway such as [Kong Konnect](https://konghq.com/kong/ "The world’s most popular API gateway | Kong")
 
 This obviously does create a bit more overhead when it comes to separating and moving logic from a centralised domain object into multiple action objects.
 
