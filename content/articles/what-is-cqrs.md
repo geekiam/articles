@@ -109,8 +109,6 @@ This may be because there is more READS than there are WRITES the services may w
 
 This obviously does create a bit more overhead when it comes to separating and moving logic from a centralised domain object into multiple action objects.
 
+### The Mediator Pattern
 
-
-### The Mediator Pattern 
-
-A popular [software design pattern](https://garywoodfine.com/software-design-patterns/ "Software Design Patterns | Gary Woodfine") used when implementing CQRS is the [Mediator Pattern](https://garywoodfine.com/the-mediator-pattern/ "The Mediator Pattern | Gary Woodfine")
+A popular [software design pattern](https://garywoodfine.com/software-design-patterns/ "Software Design Patterns | Gary Woodfine") used when implementing CQRS is the [Mediator Pattern](https://garywoodfine.com/the-mediator-pattern/ "The Mediator Pattern | Gary Woodfine")  blah
