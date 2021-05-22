@@ -111,4 +111,4 @@ This obviously does create a bit more overhead when it comes to separating and m
 
 ### The Mediator Pattern
 
-A popular [software design pattern](https://garywoodfine.com/software-design-patterns/ "Software Design Patterns | Gary Woodfine") used when implementing CQRS is the [Mediator Pattern](https://garywoodfine.com/the-mediator-pattern/ "The Mediator Pattern | Gary Woodfine")  blah
+A popular [software design pattern](https://garywoodfine.com/software-design-patterns/ "Software Design Patterns | Gary Woodfine") used when implementing CQRS is the [Mediator Pattern](https://garywoodfine.com/the-mediator-pattern/ "The Mediator Pattern | Gary Woodfine")
