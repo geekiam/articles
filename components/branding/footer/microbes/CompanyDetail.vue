@@ -13,7 +13,7 @@
       />
     </div>
     <p class="text-gray-500 text-base">
-      Ensuring education is open to everyone
+      Education open to everyone
     </p>
     <BrandingFooterMicrobesSocialMedia />
   </div>
